@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181FD645221DA2F300186E3D /* SumikkoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FD644221DA2F300186E3D /* SumikkoDetailViewController.swift */; };
 		1824D9DF221C5E1C00D9341A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824D9DE221C5E1C00D9341A /* AppDelegate.swift */; };
-		1824D9E1221C5E1C00D9341A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824D9E0221C5E1C00D9341A /* ViewController.swift */; };
 		1824D9E4221C5E1C00D9341A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1824D9E2221C5E1C00D9341A /* Main.storyboard */; };
 		1824D9E6221C5E1D00D9341A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1824D9E5221C5E1D00D9341A /* Assets.xcassets */; };
 		1824D9E9221C5E1D00D9341A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1824D9E7221C5E1D00D9341A /* LaunchScreen.storyboard */; };
 		1824D9F4221C5E1D00D9341A /* HW16DataSourceXcode11_0219Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824D9F3221C5E1D00D9341A /* HW16DataSourceXcode11_0219Tests.swift */; };
 		1824D9FF221C5E1D00D9341A /* HW16DataSourceXcode11_0219UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824D9FE221C5E1D00D9341A /* HW16DataSourceXcode11_0219UITests.swift */; };
+		1824DA0D221C5F3200D9341A /* SumikkosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824DA0C221C5F3200D9341A /* SumikkosTableViewController.swift */; };
+		1824DA0F221C5F5A00D9341A /* Sumikko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824DA0E221C5F5A00D9341A /* Sumikko.swift */; };
+		1824DA11221C60A600D9341A /* SumikkoLeftItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824DA10221C60A600D9341A /* SumikkoLeftItemTableViewCell.swift */; };
+		1824DA13221C60C200D9341A /* SumikkoRightItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824DA12221C60C200D9341A /* SumikkoRightItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181FD644221DA2F300186E3D /* SumikkoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumikkoDetailViewController.swift; sourceTree = "<group>"; };
 		1824D9DB221C5E1C00D9341A /* HW16DataSourceXcode11_0219.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW16DataSourceXcode11_0219.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1824D9DE221C5E1C00D9341A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1824D9E0221C5E1C00D9341A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1824D9E3221C5E1C00D9341A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1824D9E5221C5E1D00D9341A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1824D9E8221C5E1D00D9341A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		1824D9FA221C5E1D00D9341A /* HW16DataSourceXcode11_0219UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW16DataSourceXcode11_0219UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1824D9FE221C5E1D00D9341A /* HW16DataSourceXcode11_0219UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW16DataSourceXcode11_0219UITests.swift; sourceTree = "<group>"; };
 		1824DA00221C5E1D00D9341A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1824DA0C221C5F3200D9341A /* SumikkosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumikkosTableViewController.swift; sourceTree = "<group>"; };
+		1824DA0E221C5F5A00D9341A /* Sumikko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sumikko.swift; sourceTree = "<group>"; };
+		1824DA10221C60A600D9341A /* SumikkoLeftItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumikkoLeftItemTableViewCell.swift; sourceTree = "<group>"; };
+		1824DA12221C60C200D9341A /* SumikkoRightItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumikkoRightItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				1824D9DE221C5E1C00D9341A /* AppDelegate.swift */,
-				1824D9E0221C5E1C00D9341A /* ViewController.swift */,
 				1824D9E2221C5E1C00D9341A /* Main.storyboard */,
 				1824D9E5221C5E1D00D9341A /* Assets.xcassets */,
 				1824D9E7221C5E1D00D9341A /* LaunchScreen.storyboard */,
 				1824D9EA221C5E1D00D9341A /* Info.plist */,
+				1824DA0C221C5F3200D9341A /* SumikkosTableViewController.swift */,
+				1824DA0E221C5F5A00D9341A /* Sumikko.swift */,
+				1824DA10221C60A600D9341A /* SumikkoLeftItemTableViewCell.swift */,
+				1824DA12221C60C200D9341A /* SumikkoRightItemTableViewCell.swift */,
+				181FD644221DA2F300186E3D /* SumikkoDetailViewController.swift */,
 			);
 			path = HW16DataSourceXcode11_0219;
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1824D9E1221C5E1C00D9341A /* ViewController.swift in Sources */,
+				1824DA0F221C5F5A00D9341A /* Sumikko.swift in Sources */,
+				1824DA11221C60A600D9341A /* SumikkoLeftItemTableViewCell.swift in Sources */,
+				1824DA13221C60C200D9341A /* SumikkoRightItemTableViewCell.swift in Sources */,
 				1824D9DF221C5E1C00D9341A /* AppDelegate.swift in Sources */,
+				1824DA0D221C5F3200D9341A /* SumikkosTableViewController.swift in Sources */,
+				181FD645221DA2F300186E3D /* SumikkoDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X725M6FRD5;
 				INFOPLIST_FILE = HW16DataSourceXcode11_0219/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X725M6FRD5;
 				INFOPLIST_FILE = HW16DataSourceXcode11_0219/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
